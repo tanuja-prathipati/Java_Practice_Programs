@@ -14,9 +14,9 @@ public class lengthOfWord {
         //     }
         // }
         String[] words = str.split(" ");
-        for (int i = 0; i < words.length; i++) {
-            if (words[i].length() % 2 == 0) {
-                System.out.println(words[i]);
+        for (String w : words) {
+            if (w.length() % 2 == 0) {
+                System.out.println(w);
             }
         }
 
